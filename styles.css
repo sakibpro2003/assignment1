@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .banner-image {
+    display: block;
+    margin: 0 auto;
+    padding: 0 110px;
+    border-radius: 16px;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+  }
+  
+  .text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: 632px;
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+  }
+  
+  .text h3 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+
+  /* main section  */
+
+  .content-holder{
+    /* padding: 0 400px; */
+  }
+
+  .new-year-3d{
+    max-width: 625px;
+    width: 100%;
+    /* flex-shrink: 0; */
+  }
+
+  .content-heading{
+    margin-top: 120px;
+    margin-bottom: 48px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .holiday-deals{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 10px;
+  }
+
+  .all-cate{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+  }
+
+  .content-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    align-content: center;
+  }
+
+  .midnight-party-container{
+    position: relative;
+    /* background-color: red; */
+  }
+
+  .midnight-party-container img {
+    display: block;
+    margin: 0 auto;
+    padding: 0 110px;
+    border-radius: 16px;
+  }
+  .text-container{
+    
+  }
+
+  
