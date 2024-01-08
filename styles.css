@@ -443,6 +443,31 @@ font-weight: 500;
 line-height: 32px; /* 160% */
 }
 
+
+
+/* .container-surprise{
+  width: 100%;
+  margin-left: 100px;
+}
+.rectangle {
+  position: absolute;
+  margin-top: 380px;
+  z-index: -1;
+}
+
+.girl{
+
+  position: absolute;
+  margin-left: 891px;
+  margin-top: -52px;
+}
+.circle{
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 20px;
+} */
+
+
 .product-text-container{
   padding: 110px;
 }
@@ -489,8 +514,6 @@ text-transform: capitalize;
 .products-container img:hover{
   border: 15px solid #FF004D;
   border-radius: 35px;
-  /* display: block; */
-  /* background-color: bisque; */
 }
 
 
