@@ -383,9 +383,6 @@ width: 300px;
             border-radius: 50%;
 }
 
-.red-ring img{
-
-}
 
 .third-text-container h3{
   color: #F00;
@@ -406,7 +403,8 @@ line-height: normal;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 0px 140px;
+  padding: 140px 160px;
+  margin-left: 55px;
 }
 
 .what-is-functional{
@@ -441,6 +439,41 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 160% */
+}
+.container-surprise{
+  margin-left: 250px;
+  margin-top: 650px;
+  width: 1030px;
+  height: 500px;
+}
+.girl{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin-left: 630px;
+  margin-top: -399px;
+  
+}
+.circle{
+position: absolute;
+  margin-bottom: -120px; 
+  margin-top: -300px;
+
+  margin-left: 500px;
+
+  height: 250px;
+  width: 250px;
+  
+}
+.rectangle {
+  margin-top: 380px;
+  z-index: -1;
+}
+.surprise-box{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-top: -400px;
 }
 
 
@@ -521,8 +554,8 @@ text-transform: capitalize;
 .footer{
   background-color: black;
   color: #FFFFFF;
-  height: 600px;
-  padding: 140px 110px ;
+  height: 300px;
+  padding: 180px 110px ;
 }
 
 .contact-info{
