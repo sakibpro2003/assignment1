@@ -483,7 +483,14 @@ text-transform: capitalize;
   padding: 0px 110px 0px 110px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 20px;
+  gap: 30px;
+}
+
+.products-container img:hover{
+  border: 15px solid #FF004D;
+  border-radius: 35px;
+  /* display: block; */
+  /* background-color: bisque; */
 }
 
 
