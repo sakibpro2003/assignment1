@@ -267,10 +267,22 @@ img {
   padding: 48px;
 }
 
+.cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .events{
-  height: 80vh;
+  /* position: absolute; */
+  height: 90vh;
+  width: 87%;
+  border-radius: 10px;
   /* background-color: red; */
   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+ 
+  
 
 }
 
@@ -290,6 +302,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 56px;
 text-transform: capitalize;
+/* margin-left: 30%; */
 }
 
 .event-date span{
@@ -299,8 +312,7 @@ font-family: Inter;
 font-size: 32px;
 font-style: normal;
 font-weight: 600;
-line-height: 56px; /* 175% */
-text-transform: capitalize;
+line-height: 56px;
 }
 
 .event-join{
@@ -315,3 +327,120 @@ border: none;
 color: #FFF;
 margin-top: 48px;
 }
+
+/* new best offer */
+
+.comming-soon-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px;
+}
+
+.new-best-offer{
+  width: 350px;
+}
+
+.offer-title{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.offer-comming{
+  margin-top: 15px;
+  color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.offer-paragraph, .third-text-container p{
+  margin-top: 15px;
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 300px;
+}
+
+.red-ring{
+  padding: 30px;
+            display: flex;
+            width: 370px;
+            height: 370px;
+            border: 15px solid red;
+            border-radius: 50%;
+}
+
+.red-ring img{
+
+}
+
+.third-text-container h3{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.third-text-container img{
+  width: 140px;
+  margin-left: 0px;
+}
+
+.holiday-sale{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 140px;
+}
+
+.what-is-functional{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.holiday-50{
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.red{
+  color: #F00;
+}
+
+.holiday-sale p{
+  width: 90%;
+  
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+
+
