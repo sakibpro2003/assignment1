@@ -544,8 +544,89 @@ width: 500px;
 /* height: 72px; */
 flex-shrink: 0;
 padding: 20px;
+}
+
+.footer{
+  background-color: black;
+  color: #FFFFFF;
+  height: 600px;
+  padding: 140px 110px ;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+}
+.phone{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.website{
+  display: flex;
+}
+.contact-online{
+  /* display: flex; */
 
 }
+.address p{
+  width: 350px;
+  line-height: 30px;
+}
+
+.footer hr{
+  margin-top: 50px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+
+}
+
+.icon {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  
+
+}
+
+.icon img{
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.last-part{
+  display: flex;
+  justify-content: space-between;
+}
+.last-part-text{
+  /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+.btn-unsubscribe{
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: Inter;
+font-size: 24px;
+/* font-style: normal; */
+/* font-weight: 500; */
+
+}
+
+.sec-hr{
+  margin-bottom: 50px;
+}
+
+
 
 
 
